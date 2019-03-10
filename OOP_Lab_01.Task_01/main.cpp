@@ -35,10 +35,6 @@ Circle::Circle()
     this->z = 0;
 }
 
-Circle::~Circle()
-{
-}
-
 void Circle::SetRadius(double cradius)
 {
     if (cradius <= 0)
